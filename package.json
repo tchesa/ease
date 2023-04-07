@@ -1,5 +1,5 @@
 {
-  "name": "ease",
+  "name": "@tchesa/ease",
   "version": "0.0.1",
   "description": "A tiny javascript easing package with no dependencies.",
   "main": "dist/index.js",
