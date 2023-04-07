@@ -1,3 +1,4 @@
+[![npm version](https://img.shields.io/npm/v/@tchesa/ease)](https://www.npmjs.com/package/@tchesa/ease)
 [![Coverage Status](https://coveralls.io/repos/github/tchesa/ease/badge.svg)](https://coveralls.io/github/tchesa/ease)
 
 # @tchesa/ease
