@@ -1,0 +1,8 @@
+'use strict';
+
+var easeInExpo = function (x) {
+    return x === 0 ? 0 : Math.pow(2, 10 * x - 10);
+};
+
+module.exports = easeInExpo;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluRXhwby5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJbkV4cG8udHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5FeHBvOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PlxuICB4ID09PSAwID8gMCA6IE1hdGgucG93KDIsIDEwICogeCAtIDEwKTtcblxuZXhwb3J0IGRlZmF1bHQgZWFzZUluRXhwbztcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVNLElBQUEsVUFBVSxHQUFtQixVQUFDLENBQUMsRUFBQTtJQUNuQyxPQUFBLENBQUMsS0FBSyxDQUFDLEdBQUcsQ0FBQyxHQUFHLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQyxFQUFFLEVBQUUsR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDLENBQUE7QUFBdEM7Ozs7In0=

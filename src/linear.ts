@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const linear: EaseFunction = (x) => x;
+const linear: EasingFunction = (x) => x;
 
 export default linear;

@@ -1,0 +1,6 @@
+'use strict';
+
+var easeInSine = function (x) { return 1 - Math.cos((x * Math.PI) / 2); };
+
+module.exports = easeInSine;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluU2luZS5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJblNpbmUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5TaW5lOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiAxIC0gTWF0aC5jb3MoKHggKiBNYXRoLlBJKSAvIDIpO1xuXG5leHBvcnQgZGVmYXVsdCBlYXNlSW5TaW5lO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRU0sSUFBQSxVQUFVLEdBQW1CLFVBQUMsQ0FBQyxFQUFBLEVBQUssT0FBQSxDQUFDLEdBQUcsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsR0FBRyxJQUFJLENBQUMsRUFBRSxJQUFJLENBQUMsQ0FBQyxDQUEvQjs7OzsifQ==

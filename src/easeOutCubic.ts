@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeOutCubic: EaseFunction = (x) => 1 - Math.pow(1 - x, 3);
+const easeOutCubic: EasingFunction = (x) => 1 - Math.pow(1 - x, 3);
 
 export default easeOutCubic;

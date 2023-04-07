@@ -1,6 +1,6 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeOutBounce: EaseFunction = (x) => {
+const easeOutBounce: EasingFunction = (x) => {
   const n1 = 7.5625;
   const d1 = 2.75;
 

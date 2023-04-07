@@ -1,0 +1,6 @@
+'use strict';
+
+var easeInCubic = function (x) { return x * x * x; };
+
+module.exports = easeInCubic;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluQ3ViaWMuanMiLCJzb3VyY2VzIjpbIi4uL3NyYy9lYXNlSW5DdWJpYy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFYXNpbmdGdW5jdGlvbiB9IGZyb20gXCIuL2luZGV4XCI7XG5cbmNvbnN0IGVhc2VJbkN1YmljOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiB4ICogeCAqIHg7XG5cbmV4cG9ydCBkZWZhdWx0IGVhc2VJbkN1YmljO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUEsSUFBTSxXQUFXLEdBQW1CLFVBQUMsQ0FBQyxFQUFLLEVBQUEsT0FBQSxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsQ0FBQTs7OzsifQ==

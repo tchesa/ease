@@ -1,3 +1,5 @@
+export type EasingFunction = (input: number) => number;
+
 export { default as easeInBack } from "./easeInBack";
 export { default as easeInBounce } from "./easeInBounce";
 export { default as easeInCirc } from "./easeInCirc";

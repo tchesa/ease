@@ -1,0 +1,6 @@
+'use strict';
+
+var easeInOutSine = function (x) { return -(Math.cos(Math.PI * x) - 1) / 2; };
+
+module.exports = easeInOutSine;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluT3V0U2luZS5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJbk91dFNpbmUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5PdXRTaW5lOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiAtKE1hdGguY29zKE1hdGguUEkgKiB4KSAtIDEpIC8gMjtcblxuZXhwb3J0IGRlZmF1bHQgZWFzZUluT3V0U2luZTtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVNLElBQUEsYUFBYSxHQUFtQixVQUFDLENBQUMsRUFBQSxFQUFLLE9BQUEsRUFBRSxJQUFJLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxFQUFFLEdBQUcsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFoQzs7OzsifQ==

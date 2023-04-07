@@ -2,9 +2,10 @@
   "name": "ease",
   "version": "0.0.1",
   "description": "A tiny javascript easing package with no dependencies.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/tchesa/ease/issues"
   },
-  "homepage": "https://github.com/tchesa/ease#readme"
+  "homepage": "https://github.com/tchesa/ease#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "glob": "^9.3.4",
+    "rollup": "^3.20.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
 }

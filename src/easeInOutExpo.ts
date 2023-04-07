@@ -1,6 +1,6 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeInOutExpo: EaseFunction = (x) =>
+const easeInOutExpo: EasingFunction = (x) =>
   x === 0
     ? 0
     : x === 1

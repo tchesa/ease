@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeInSine: EaseFunction = (x) => 1 - Math.cos((x * Math.PI) / 2);
+const easeInSine: EasingFunction = (x) => 1 - Math.cos((x * Math.PI) / 2);
 
 export default easeInSine;

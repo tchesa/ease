@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeInQuint: EaseFunction = (x) => x * x * x * x * x;
+const easeInQuint: EasingFunction = (x) => x * x * x * x * x;
 
 export default easeInQuint;

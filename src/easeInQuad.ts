@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeInQuad: EaseFunction = (x) => x * x;
+const easeInQuad: EasingFunction = (x) => x * x;
 
 export default easeInQuad;

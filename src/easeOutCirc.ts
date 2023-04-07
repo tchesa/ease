@@ -1,5 +1,6 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeOutCirc: EaseFunction = (x) => 1 - Math.sqrt(1 - Math.pow(x - 1, 2));
+const easeOutCirc: EasingFunction = (x) =>
+  1 - Math.sqrt(1 - Math.pow(x - 1, 2));
 
 export default easeOutCirc;

@@ -1,5 +1,5 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeOutQuart: EaseFunction = (x) => 1 - Math.pow(1 - x, 4);
+const easeOutQuart: EasingFunction = (x) => 1 - Math.pow(1 - x, 4);
 
 export default easeOutQuart;

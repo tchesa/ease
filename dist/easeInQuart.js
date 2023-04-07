@@ -1,0 +1,6 @@
+'use strict';
+
+var easeInQuart = function (x) { return x * x * x * x; };
+
+module.exports = easeInQuart;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluUXVhcnQuanMiLCJzb3VyY2VzIjpbIi4uL3NyYy9lYXNlSW5RdWFydC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFYXNpbmdGdW5jdGlvbiB9IGZyb20gXCIuL2luZGV4XCI7XG5cbmNvbnN0IGVhc2VJblF1YXJ0OiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiB4ICogeCAqIHggKiB4O1xuXG5leHBvcnQgZGVmYXVsdCBlYXNlSW5RdWFydDtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBLElBQU0sV0FBVyxHQUFtQixVQUFDLENBQUMsSUFBSyxPQUFBLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsQ0FBQTs7OzsifQ==

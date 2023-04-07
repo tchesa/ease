@@ -1,0 +1,6 @@
+'use strict';
+
+var easeInQuad = function (x) { return x * x; };
+
+module.exports = easeInQuad;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluUXVhZC5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJblF1YWQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5RdWFkOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiB4ICogeDtcblxuZXhwb3J0IGRlZmF1bHQgZWFzZUluUXVhZDtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVNLElBQUEsVUFBVSxHQUFtQixVQUFDLENBQUMsRUFBQSxFQUFLLE9BQUEsQ0FBQyxHQUFHLENBQUMsQ0FBTDs7OzsifQ==

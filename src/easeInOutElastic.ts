@@ -1,6 +1,6 @@
-import { EaseFunction } from "./types";
+import { EasingFunction } from "./index";
 
-const easeInOutElastic: EaseFunction = (x) => {
+const easeInOutElastic: EasingFunction = (x) => {
   const c5 = (2 * Math.PI) / 4.5;
 
   return x === 0
