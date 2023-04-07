@@ -16,7 +16,6 @@ console.log(easeOutCubic(0.5)); // -> 0.875
 ```
 
 ## Methods
-- `linear`
 - [`easeInSine`](https://easings.net/#easeInSine)
 - [`easeOutSine`](https://easings.net/#easeOutSine)
 - [`easeInOutSine`](https://easings.net/#easeInOutSine)

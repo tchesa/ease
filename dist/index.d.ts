@@ -29,4 +29,3 @@ export { default as easeOutQuad } from "./easeOutQuad";
 export { default as easeOutQuart } from "./easeOutQuart";
 export { default as easeOutQuint } from "./easeOutQuint";
 export { default as easeOutSine } from "./easeOutSine";
-export { default as linear } from "./linear";
