@@ -1,1 +1,0 @@
-{"version":3,"file":"easeInSine.js","sources":["../src/easeInSine.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeInSine: EasingFunction = (x) => 1 - Math.cos((x * Math.PI) / 2);\n\nexport default easeInSine;\n"],"names":["x","Math","cos","PI"],"mappings":"4BAEmC,SAACA,GAAM,OAAA,EAAIC,KAAKC,IAAKF,EAAIC,KAAKE,GAAM,EAA7B"}

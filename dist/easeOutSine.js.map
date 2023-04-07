@@ -1,1 +1,0 @@
-{"version":3,"file":"easeOutSine.js","sources":["../src/easeOutSine.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeOutSine: EasingFunction = (x) => Math.sin((x * Math.PI) / 2);\n\nexport default easeOutSine;\n"],"names":["x","Math","sin","PI"],"mappings":"4BAEoC,SAACA,GAAM,OAAAC,KAAKC,IAAKF,EAAIC,KAAKE,GAAM,EAAzB"}

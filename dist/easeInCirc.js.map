@@ -1,1 +1,0 @@
-{"version":3,"file":"easeInCirc.js","sources":["../src/easeInCirc.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeInCirc: EasingFunction = (x) => 1 - Math.sqrt(1 - Math.pow(x, 2));\n\nexport default easeInCirc;\n"],"names":["x","Math","sqrt","pow"],"mappings":"4BAEmC,SAACA,GAAM,OAAA,EAAIC,KAAKC,KAAK,EAAID,KAAKE,IAAIH,EAAG,GAA9B"}

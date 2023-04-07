@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/easeOutQuint/index.ts"],"sourcesContent":["import { EasingFunction } from \"../index\";\n\nconst easeOutQuint: EasingFunction = (x) => 1 - Math.pow(1 - x, 5);\n\nexport default easeOutQuint;\n"],"names":["x","Math","pow"],"mappings":"4BAEqC,SAACA,GAAM,OAAA,EAAIC,KAAKC,IAAI,EAAIF,EAAG,EAAE"}

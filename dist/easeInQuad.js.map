@@ -1,1 +1,0 @@
-{"version":3,"file":"easeInQuad.js","sources":["../src/easeInQuad.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeInQuad: EasingFunction = (x) => x * x;\n\nexport default easeInQuad;\n"],"names":["x"],"mappings":"4BAEmC,SAACA,GAAM,OAAAA,EAAIA,CAAJ"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/easeOutQuad/index.ts"],"sourcesContent":["import { EasingFunction } from \"../index\";\n\nconst easeOutQuad: EasingFunction = (x) => 1 - (1 - x) * (1 - x);\n\nexport default easeOutQuad;\n"],"names":["x"],"mappings":"4BAEoC,SAACA,GAAM,OAAA,GAAK,EAAIA,IAAM,EAAIA,EAAnB"}

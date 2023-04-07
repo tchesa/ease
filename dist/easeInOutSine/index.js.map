@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/easeInOutSine/index.ts"],"sourcesContent":["import { EasingFunction } from \"../index\";\n\nconst easeInOutSine: EasingFunction = (x) => -(Math.cos(Math.PI * x) - 1) / 2;\n\nexport default easeInOutSine;\n"],"names":["x","Math","cos","PI"],"mappings":"4BAEsC,SAACA,GAAM,QAAEC,KAAKC,IAAID,KAAKE,GAAKH,GAAK,GAAK,CAA/B"}

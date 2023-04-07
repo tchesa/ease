@@ -1,1 +1,0 @@
-{"version":3,"file":"easeOutQuart.js","sources":["../src/easeOutQuart.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeOutQuart: EasingFunction = (x) => 1 - Math.pow(1 - x, 4);\n\nexport default easeOutQuart;\n"],"names":["x","Math","pow"],"mappings":"4BAEqC,SAACA,GAAM,OAAA,EAAIC,KAAKC,IAAI,EAAIF,EAAG,EAAE"}

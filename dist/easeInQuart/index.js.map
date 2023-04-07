@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/easeInQuart/index.ts"],"sourcesContent":["import { EasingFunction } from \"../index\";\n\nconst easeInQuart: EasingFunction = (x) => x * x * x * x;\n\nexport default easeInQuart;\n"],"names":["x"],"mappings":"4BAEoC,SAACA,GAAM,OAAAA,EAAIA,EAAIA,EAAIA,CAAC"}

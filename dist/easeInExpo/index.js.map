@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/easeInExpo/index.ts"],"sourcesContent":["import { EasingFunction } from \"../index\";\n\nconst easeInExpo: EasingFunction = (x) =>\n  x === 0 ? 0 : Math.pow(2, 10 * x - 10);\n\nexport default easeInExpo;\n"],"names":["x","Math","pow"],"mappings":"4BAEmC,SAACA,GAClC,OAAM,IAANA,EAAU,EAAIC,KAAKC,IAAI,EAAG,GAAKF,EAAI,GAAnC"}

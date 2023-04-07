@@ -7,7 +7,7 @@ import terser from "@rollup/plugin-terser";
 export default {
   input: Object.fromEntries(
     glob
-      .sync("src/*.ts")
+      .sync("src/**/*.ts")
       .map((file) => [
         path.relative(
           "src",
