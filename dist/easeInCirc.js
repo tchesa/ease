@@ -1,6 +1,2 @@
-'use strict';
-
-var easeInCirc = function (x) { return 1 - Math.sqrt(1 - Math.pow(x, 2)); };
-
-module.exports = easeInCirc;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluQ2lyYy5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJbkNpcmMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5DaXJjOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiAxIC0gTWF0aC5zcXJ0KDEgLSBNYXRoLnBvdyh4LCAyKSk7XG5cbmV4cG9ydCBkZWZhdWx0IGVhc2VJbkNpcmM7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFTSxJQUFBLFVBQVUsR0FBbUIsVUFBQyxDQUFDLEVBQUEsRUFBSyxPQUFBLENBQUMsR0FBRyxJQUFJLENBQUMsSUFBSSxDQUFDLENBQUMsR0FBRyxJQUFJLENBQUMsR0FBRyxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFqQzs7OzsifQ==
+"use strict";module.exports=function(t){return 1-Math.sqrt(1-Math.pow(t,2))};
+//# sourceMappingURL=easeInCirc.js.map

@@ -1,6 +1,2 @@
-'use strict';
-
-var easeInQuint = function (x) { return x * x * x * x * x; };
-
-module.exports = easeInQuint;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluUXVpbnQuanMiLCJzb3VyY2VzIjpbIi4uL3NyYy9lYXNlSW5RdWludC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFYXNpbmdGdW5jdGlvbiB9IGZyb20gXCIuL2luZGV4XCI7XG5cbmNvbnN0IGVhc2VJblF1aW50OiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiB4ICogeCAqIHggKiB4ICogeDtcblxuZXhwb3J0IGRlZmF1bHQgZWFzZUluUXVpbnQ7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQSxJQUFNLFdBQVcsR0FBbUIsVUFBQyxDQUFDLEVBQUEsRUFBSyxPQUFBLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLENBQUE7Ozs7In0=
+"use strict";module.exports=function(t){return t*t*t*t*t};
+//# sourceMappingURL=easeInQuint.js.map

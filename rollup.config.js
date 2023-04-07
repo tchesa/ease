@@ -20,12 +20,7 @@ export default {
     {
       dir: "dist",
       format: "cjs",
-      sourcemap: "inline",
-    },
-    {
-      dir: "dist",
-      format: "cjs",
-      entryFileNames: "[name].min.js",
+      sourcemap: true,
       plugins: [terser()],
     },
   ],

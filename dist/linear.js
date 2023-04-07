@@ -1,6 +1,2 @@
-'use strict';
-
-var linear = function (x) { return x; };
-
-module.exports = linear;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGluZWFyLmpzIiwic291cmNlcyI6WyIuLi9zcmMvbGluZWFyLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEVhc2luZ0Z1bmN0aW9uIH0gZnJvbSBcIi4vaW5kZXhcIjtcblxuY29uc3QgbGluZWFyOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiB4O1xuXG5leHBvcnQgZGVmYXVsdCBsaW5lYXI7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFTSxJQUFBLE1BQU0sR0FBbUIsVUFBQyxDQUFDLElBQUssT0FBQSxDQUFDLENBQUQ7Ozs7In0=
+"use strict";module.exports=function(t){return t};
+//# sourceMappingURL=linear.js.map

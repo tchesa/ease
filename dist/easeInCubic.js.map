@@ -1,0 +1,1 @@
+{"version":3,"file":"easeInCubic.js","sources":["../src/easeInCubic.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeInCubic: EasingFunction = (x) => x * x * x;\n\nexport default easeInCubic;\n"],"names":["x"],"mappings":"4BAEoC,SAACA,GAAM,OAAAA,EAAIA,EAAIA,CAAC"}

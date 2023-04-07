@@ -1,8 +1,2 @@
-'use strict';
-
-var easeInOutQuint = function (x) {
-    return x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
-};
-
-module.exports = easeInOutQuint;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluT3V0UXVpbnQuanMiLCJzb3VyY2VzIjpbIi4uL3NyYy9lYXNlSW5PdXRRdWludC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFYXNpbmdGdW5jdGlvbiB9IGZyb20gXCIuL2luZGV4XCI7XG5cbmNvbnN0IGVhc2VJbk91dFF1aW50OiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PlxuICB4IDwgMC41ID8gMTYgKiB4ICogeCAqIHggKiB4ICogeCA6IDEgLSBNYXRoLnBvdygtMiAqIHggKyAyLCA1KSAvIDI7XG5cbmV4cG9ydCBkZWZhdWx0IGVhc2VJbk91dFF1aW50O1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRU0sSUFBQSxjQUFjLEdBQW1CLFVBQUMsQ0FBQyxFQUFBO0FBQ3ZDLElBQUEsT0FBQSxDQUFDLEdBQUcsR0FBRyxHQUFHLEVBQUUsR0FBRyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxJQUFJLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFBO0FBQWxFOzs7OyJ9
+"use strict";module.exports=function(t){return t<.5?16*t*t*t*t*t:1-Math.pow(-2*t+2,5)/2};
+//# sourceMappingURL=easeInOutQuint.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"linear.js","sources":["../src/linear.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst linear: EasingFunction = (x) => x;\n\nexport default linear;\n"],"names":["x"],"mappings":"4BAE+B,SAACA,GAAM,OAAAA,CAAA"}

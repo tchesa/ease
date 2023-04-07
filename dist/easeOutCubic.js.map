@@ -1,0 +1,1 @@
+{"version":3,"file":"easeOutCubic.js","sources":["../src/easeOutCubic.ts"],"sourcesContent":["import { EasingFunction } from \"./index\";\n\nconst easeOutCubic: EasingFunction = (x) => 1 - Math.pow(1 - x, 3);\n\nexport default easeOutCubic;\n"],"names":["x","Math","pow"],"mappings":"4BAEqC,SAACA,GAAM,OAAA,EAAIC,KAAKC,IAAI,EAAIF,EAAG,EAAE"}

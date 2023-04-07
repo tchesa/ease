@@ -1,6 +1,2 @@
-'use strict';
-
-var easeOutQuart = function (x) { return 1 - Math.pow(1 - x, 4); };
-
-module.exports = easeOutQuart;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZU91dFF1YXJ0LmpzIiwic291cmNlcyI6WyIuLi9zcmMvZWFzZU91dFF1YXJ0LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEVhc2luZ0Z1bmN0aW9uIH0gZnJvbSBcIi4vaW5kZXhcIjtcblxuY29uc3QgZWFzZU91dFF1YXJ0OiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiAxIC0gTWF0aC5wb3coMSAtIHgsIDQpO1xuXG5leHBvcnQgZGVmYXVsdCBlYXNlT3V0UXVhcnQ7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFTSxJQUFBLFlBQVksR0FBbUIsVUFBQyxDQUFDLElBQUssT0FBQSxDQUFDLEdBQUcsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFBOzs7OyJ9
+"use strict";module.exports=function(t){return 1-Math.pow(1-t,4)};
+//# sourceMappingURL=easeOutQuart.js.map

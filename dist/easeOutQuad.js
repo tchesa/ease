@@ -1,6 +1,2 @@
-'use strict';
-
-var easeOutQuad = function (x) { return 1 - (1 - x) * (1 - x); };
-
-module.exports = easeOutQuad;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZU91dFF1YWQuanMiLCJzb3VyY2VzIjpbIi4uL3NyYy9lYXNlT3V0UXVhZC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFYXNpbmdGdW5jdGlvbiB9IGZyb20gXCIuL2luZGV4XCI7XG5cbmNvbnN0IGVhc2VPdXRRdWFkOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PiAxIC0gKDEgLSB4KSAqICgxIC0geCk7XG5cbmV4cG9ydCBkZWZhdWx0IGVhc2VPdXRRdWFkO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRU0sSUFBQSxXQUFXLEdBQW1CLFVBQUMsQ0FBQyxJQUFLLE9BQUEsQ0FBQyxHQUFHLENBQUMsQ0FBQyxHQUFHLENBQUMsS0FBSyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQXJCOzs7OyJ9
+"use strict";module.exports=function(t){return 1-(1-t)*(1-t)};
+//# sourceMappingURL=easeOutQuad.js.map

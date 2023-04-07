@@ -1,10 +1,2 @@
-'use strict';
-
-var easeInOutCirc = function (x) {
-    return x < 0.5
-        ? (1 - Math.sqrt(1 - Math.pow(2 * x, 2))) / 2
-        : (Math.sqrt(1 - Math.pow(-2 * x + 2, 2)) + 1) / 2;
-};
-
-module.exports = easeInOutCirc;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWFzZUluT3V0Q2lyYy5qcyIsInNvdXJjZXMiOlsiLi4vc3JjL2Vhc2VJbk91dENpcmMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRWFzaW5nRnVuY3Rpb24gfSBmcm9tIFwiLi9pbmRleFwiO1xuXG5jb25zdCBlYXNlSW5PdXRDaXJjOiBFYXNpbmdGdW5jdGlvbiA9ICh4KSA9PlxuICB4IDwgMC41XG4gICAgPyAoMSAtIE1hdGguc3FydCgxIC0gTWF0aC5wb3coMiAqIHgsIDIpKSkgLyAyXG4gICAgOiAoTWF0aC5zcXJ0KDEgLSBNYXRoLnBvdygtMiAqIHggKyAyLCAyKSkgKyAxKSAvIDI7XG5cbmV4cG9ydCBkZWZhdWx0IGVhc2VJbk91dENpcmM7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFTSxJQUFBLGFBQWEsR0FBbUIsVUFBQyxDQUFDLEVBQUE7SUFDdEMsT0FBQSxDQUFDLEdBQUcsR0FBRztVQUNILENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxJQUFJLENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQyxJQUFJLENBQUM7VUFDM0MsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLENBQUMsR0FBRyxJQUFJLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxDQUFBO0FBRnBEOzs7OyJ9
+"use strict";module.exports=function(t){return t<.5?(1-Math.sqrt(1-Math.pow(2*t,2)))/2:(Math.sqrt(1-Math.pow(-2*t+2,2))+1)/2};
+//# sourceMappingURL=easeInOutCirc.js.map
