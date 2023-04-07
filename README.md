@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/tchesa/ease/badge.svg?branch=master&service=github)](https://coveralls.io/github/tchesa/ease?branch=master)
+
 # @tchesa/ease
 
 A tiny javascript easing package with no dependencies.
