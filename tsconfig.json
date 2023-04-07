@@ -2,6 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "declaration": true,
-    "declarationDir": "dist"
-  }
+    "declarationDir": "dist",
+    "esModuleInterop": true
+  },
 }
