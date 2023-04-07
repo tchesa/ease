@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/tchesa/ease/badge.svg?branch=master&service=github)](https://coveralls.io/github/tchesa/ease?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/tchesa/ease/badge.svg)](https://coveralls.io/github/tchesa/ease)
 
 # @tchesa/ease
 
