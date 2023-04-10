@@ -58,5 +58,3 @@ To include a new easing function:
 // ...
 export { default as newEasingFunction } from "./newEasingFunction";
 ```
-
-> Easing functions' implementation from See https://easings.net/.
