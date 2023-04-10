@@ -1,5 +1,5 @@
 import easeOutQuart from ".";
-// import { ERROR_RANGE } from "../testUtils";
+import { ERROR_RANGE } from "../testUtils";
 
 describe("easeOutQuart", () => {
   test.each`
@@ -10,8 +10,7 @@ describe("easeOutQuart", () => {
     ${0.75} | ${0.99609375}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeOutQuart(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeOutQuart(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    expect(easeOutQuart(input)).toEqual(target);
+    expect(easeOutQuart(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeOutQuart(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });

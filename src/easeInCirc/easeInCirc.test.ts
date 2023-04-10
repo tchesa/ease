@@ -12,6 +12,5 @@ describe("easeInCirc", () => {
   `("should return $target for $input", ({ input, target }) => {
     expect(easeInCirc(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
     expect(easeInCirc(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    // expect(easeInCirc(input)).toEqual(target);
   });
 });

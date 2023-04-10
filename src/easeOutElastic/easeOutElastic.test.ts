@@ -12,6 +12,5 @@ describe("easeOutElastic", () => {
   `("should return $target for $input", ({ input, target }) => {
     expect(easeOutElastic(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
     expect(easeOutElastic(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    // expect(easeOutElastic(input)).toEqual(target);
   });
 });

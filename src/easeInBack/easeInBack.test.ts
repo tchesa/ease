@@ -12,6 +12,5 @@ describe("easeInBack", () => {
   `("should return $target for $input", ({ input, target }) => {
     expect(easeInBack(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
     expect(easeInBack(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    // expect(easeInBack(input)).toEqual(target);
   });
 });

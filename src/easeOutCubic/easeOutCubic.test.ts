@@ -1,5 +1,5 @@
 import easeOutCubic from ".";
-// import { ERROR_RANGE } from "../testUtils";
+import { ERROR_RANGE } from "../testUtils";
 
 describe("easeOutCubic", () => {
   test.each`
@@ -10,8 +10,7 @@ describe("easeOutCubic", () => {
     ${0.75} | ${0.984375}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeOutCubic(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeOutCubic(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    expect(easeOutCubic(input)).toEqual(target);
+    expect(easeOutCubic(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeOutCubic(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });

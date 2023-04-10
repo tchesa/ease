@@ -14,6 +14,5 @@ describe("easeInOutElastic", () => {
     expect(easeInOutElastic(input)).toBeGreaterThanOrEqual(
       target - ERROR_RANGE
     );
-    // expect(easeInOutElastic(input)).toEqual(target);
   });
 });

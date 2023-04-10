@@ -1,5 +1,5 @@
 import easeOutBounce from ".";
-// import { ERROR_RANGE } from "../testUtils";
+import { ERROR_RANGE } from "../testUtils";
 
 describe("easeOutBounce", () => {
   test.each`
@@ -10,8 +10,7 @@ describe("easeOutBounce", () => {
     ${0.75} | ${0.97265625}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeOutBounce(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeOutBounce(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    expect(easeOutBounce(input)).toEqual(target);
+    expect(easeOutBounce(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeOutBounce(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });

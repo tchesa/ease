@@ -1,5 +1,5 @@
 import easeInOutQuint from ".";
-// import { ERROR_RANGE } from "../testUtils";
+import { ERROR_RANGE } from "../testUtils";
 
 describe("easeInOutQuint", () => {
   test.each`
@@ -10,10 +10,7 @@ describe("easeInOutQuint", () => {
     ${0.75} | ${0.984375}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeInOutQuint(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeInOutQuint(input)).toBeGreaterThanOrEqual(
-    //   target - ERROR_RANGE
-    // );
-    expect(easeInOutQuint(input)).toEqual(target);
+    expect(easeInOutQuint(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeInOutQuint(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });

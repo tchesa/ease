@@ -12,6 +12,5 @@ describe("easeOutSine", () => {
   `("should return $target for $input", ({ input, target }) => {
     expect(easeOutSine(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
     expect(easeOutSine(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    // expect(easeOutSine(input)).toEqual(target);
   });
 });

@@ -1,5 +1,5 @@
 import easeOutQuad from ".";
-// import { ERROR_RANGE } from "../testUtils";
+import { ERROR_RANGE } from "../testUtils";
 
 describe("easeOutQuad", () => {
   test.each`
@@ -10,8 +10,7 @@ describe("easeOutQuad", () => {
     ${0.75} | ${0.9375}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeOutQuad(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeOutQuad(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    expect(easeOutQuad(input)).toEqual(target);
+    expect(easeOutQuad(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeOutQuad(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });

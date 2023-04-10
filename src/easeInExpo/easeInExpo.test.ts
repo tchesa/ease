@@ -12,6 +12,5 @@ describe("easeInExpo", () => {
   `("should return $target for $input", ({ input, target }) => {
     expect(easeInExpo(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
     expect(easeInExpo(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
-    // expect(easeInExpo(input)).toEqual(target);
   });
 });

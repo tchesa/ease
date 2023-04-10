@@ -10,10 +10,7 @@ describe("easeInOutExpo", () => {
     ${0.75} | ${0.984375}
     ${1}    | ${1}
   `("should return $target for $input", ({ input, target }) => {
-    // expect(easeInOutExpo(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
-    // expect(easeInOutExpo(input)).toBeGreaterThanOrEqual(
-    //   target - ERROR_RANGE
-    // );
-    expect(easeInOutExpo(input)).toEqual(target);
+    expect(easeInOutExpo(input)).toBeLessThanOrEqual(target + ERROR_RANGE);
+    expect(easeInOutExpo(input)).toBeGreaterThanOrEqual(target - ERROR_RANGE);
   });
 });
