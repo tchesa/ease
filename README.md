@@ -58,3 +58,4 @@ To include a new easing function:
 // ...
 export { default as newEasingFunction } from "./newEasingFunction";
 ```
+- include some tests and a README.md file with some details.
